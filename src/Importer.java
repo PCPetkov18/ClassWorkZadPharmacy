@@ -11,7 +11,7 @@ public class Importer {
 
     public Importer(){
         this.name = "";
-        this.address = "";
+        this.address = "tsar sim I";
         this.number = "0899813143";
     }
 
