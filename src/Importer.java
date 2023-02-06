@@ -10,8 +10,8 @@ public class Importer {
     }
 
     public Importer(){
-        this.name = "";
-        this.address = "tsar sim I";
+        this.name = "Mincho";
+        this.address = "tsar simeon I";
         this.number = "0899813143";
     }
 
@@ -41,6 +41,9 @@ public class Importer {
 
     @Override
     public String toString(){
-        return super.toString();
+        return "Provider{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", phone number=" + number + '}';
     }
 }

@@ -10,8 +10,8 @@ public class Provider {
     }
 
     public Provider(){
-        this.name = "";
-        this.address = "";
+        this.name = "Ivan";
+        this.address = "Tsar Gosho 1";
         this.number = "0899813143";
     }
 
@@ -41,6 +41,9 @@ public class Provider {
 
     @Override
     public String toString(){
-        return super.toString();
+        return "Provider{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", phone number=" + number + '}';
     }
 }

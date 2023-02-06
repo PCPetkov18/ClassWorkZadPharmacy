@@ -10,9 +10,9 @@ public class Medicine {
     }
 
     public Medicine(){
-        this.name = " ";
-        this.price = 0.0;
-        this.expirationDate = " ";
+        this.name = "Plamen";
+        this.price = 4.87;
+        this.expirationDate = "12.23.2002";
     }
 
     public String getName() {
@@ -41,6 +41,9 @@ public class Medicine {
 
     @Override
     public String toString(){
-        return super.toString();
+        return "Provider{" +
+                "name='" + name + '\'' +
+                ", price='" + price + '\'' +
+                ", ExpDate= " + expirationDate + '}';
     }
 }

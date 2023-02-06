@@ -10,8 +10,8 @@ public class Manufacturer {
     }
 
     public Manufacturer(){
-        this.name = "";
-        this.address = "";
+        this.name = "Gosho";
+        this.address = "Tsar Ivan 2";
         this.number = "0899813143";
     }
 
@@ -41,6 +41,9 @@ public class Manufacturer {
 
     @Override
     public String toString(){
-        return super.toString();
+        return "Importer{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", phone number= " + number + '}';
     }
 }
